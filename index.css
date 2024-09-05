@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.notification-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 52px;
+  }
+}
+
+.notification-card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .notification-card {
+    width: 30%;
+  }
+}
+
+.card-1 {
+  background-color: #0b69ff;
+}
+
+.card-2 {
+  background-color: #2dca73;
+}
+.card-3 {
+  background-color: #ffb800;
+}
+.card-4 {
+  background-color: #ff0b37;
+}
+
+.icon {
+  width: 20px;
+}
+
+.message {
+  padding-left: 12px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
