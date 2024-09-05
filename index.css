@@ -42,11 +42,7 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) {
-  .notification-card {
-    width: 30%;
-  }
-}
+
 
 .card-1 {
   background-color: #0b69ff;
